@@ -1,7 +1,12 @@
 # raspVega
 Schedule for students of base department №536 at MIREA University
 
-## Demo
+## Process of developing 
+### Part 1. Analysis of requirements
+(can be founded in **requirementsAnalysis.docx**)
+![image](/contentsOfRequirements.png)
+
+### Writing the code. Demo
 
 <img src="/raspVega.gif?raw=true" width="450px">
 
