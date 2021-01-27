@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0FE6C40E5DB33E84E50B5D /* Pods_raspVega.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49B4F735D23A7651F65253C /* Pods_raspVega.framework */; };
+		DF0E86132570883C00229E74 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0E86122570883C00229E74 /* SearchViewController.swift */; };
+		DF0E86162570889400229E74 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0E86152570889400229E74 /* NotificationsViewController.swift */; };
+		DF33A4A0256D19C80008DD66 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33A49F256D19C80008DD66 /* GroupTableViewCell.swift */; };
+		DF55FA5425729494000D0CC5 /* GroupChangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55FA5325729494000D0CC5 /* GroupChangeTableViewCell.swift */; };
 		DF855966256C3F82004CBB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF855965256C3F82004CBB8B /* AppDelegate.swift */; };
 		DF855968256C3F82004CBB8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF855967256C3F82004CBB8B /* SceneDelegate.swift */; };
-		DF85596A256C3F82004CBB8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF855969256C3F82004CBB8B /* ViewController.swift */; };
-		DF85596D256C3F82004CBB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF85596B256C3F82004CBB8B /* Main.storyboard */; };
 		DF85596F256C3F85004CBB8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF85596E256C3F85004CBB8B /* Assets.xcassets */; };
 		DF855972256C3F85004CBB8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF855970256C3F85004CBB8B /* LaunchScreen.storyboard */; };
+		DF855982256C493F004CBB8B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF855981256C493F004CBB8B /* MainTabBarController.swift */; };
+		DF855985256C4BD8004CBB8B /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF855984256C4BD8004CBB8B /* GreetingViewController.swift */; };
+		DF855988256C4C2A004CBB8B /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF855987256C4C2A004CBB8B /* ScheduleViewController.swift */; };
+		DF85598E256C4C4A004CBB8B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85598D256C4C4A004CBB8B /* SettingsViewController.swift */; };
+		DF90F527256C65B100062F88 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90F526256C65B100062F88 /* ScheduleTableViewCell.swift */; };
+		DF90F52C256CDE1800062F88 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DF90F52B256CDE1800062F88 /* data.json */; };
+		DF90F535256CDF1D00062F88 /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90F534256CDF1D00062F88 /* ScheduleData.swift */; };
+		DFDEC985257D490100D429F9 /* FullScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEC984257D490100D429F9 /* FullScheduleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C49B4F735D23A7651F65253C /* Pods_raspVega.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_raspVega.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD81C7916120DCA4954A8F13 /* Pods-raspVega.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raspVega.debug.xcconfig"; path = "Target Support Files/Pods-raspVega/Pods-raspVega.debug.xcconfig"; sourceTree = "<group>"; };
+		DF0E86122570883C00229E74 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DF0E86152570889400229E74 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		DF33A49F256D19C80008DD66 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GroupTableViewCell.swift; path = raspVega/Views/GroupTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		DF55FA5325729494000D0CC5 /* GroupChangeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GroupChangeTableViewCell.swift; path = /Users/pkvasnikov/Desktop/raspVega/raspVega/Views/GroupChangeTableViewCell.swift; sourceTree = "<absolute>"; };
 		DF855962256C3F81004CBB8B /* raspVega.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = raspVega.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF855965256C3F82004CBB8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF855967256C3F82004CBB8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF855969256C3F82004CBB8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF85596C256C3F82004CBB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF85596E256C3F85004CBB8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF855971256C3F85004CBB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF855973256C3F85004CBB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF855981256C493F004CBB8B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		DF855984256C4BD8004CBB8B /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
+		DF855987256C4C2A004CBB8B /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		DF85598D256C4C4A004CBB8B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DF90F526256C65B100062F88 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		DF90F52B256CDE1800062F88 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DF90F534256CDF1D00062F88 /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		DFDEC984257D490100D429F9 /* FullScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScheduleViewController.swift; sourceTree = "<group>"; };
+		F544F55497A762EF9AA3CFB6 /* Pods-raspVega.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raspVega.release.xcconfig"; path = "Target Support Files/Pods-raspVega/Pods-raspVega.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0FE6C40E5DB33E84E50B5D /* Pods_raspVega.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		994D871CF27BE562D584613C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C49B4F735D23A7651F65253C /* Pods_raspVega.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF855959256C3F81004CBB8B = {
 			isa = PBXGroup;
 			children = (
 				DF855964256C3F81004CBB8B /* raspVega */,
 				DF855963256C3F81004CBB8B /* Products */,
+				E72D38C5E7F710ABCD44B37E /* Pods */,
+				994D871CF27BE562D584613C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,66 @@
 		DF855964256C3F81004CBB8B /* raspVega */ = {
 			isa = PBXGroup;
 			children = (
-				DF855965256C3F82004CBB8B /* AppDelegate.swift */,
-				DF855967256C3F82004CBB8B /* SceneDelegate.swift */,
-				DF855969256C3F82004CBB8B /* ViewController.swift */,
-				DF85596B256C3F82004CBB8B /* Main.storyboard */,
-				DF85596E256C3F85004CBB8B /* Assets.xcassets */,
-				DF855970256C3F85004CBB8B /* LaunchScreen.storyboard */,
+				DF90F538256D0C6500062F88 /* Models */,
+				DF90F539256D0C8400062F88 /* Views */,
+				DF90F53B256D0CD400062F88 /* Controllers */,
+				DF90F53A256D0CB400062F88 /* Supporting Files */,
 				DF855973256C3F85004CBB8B /* Info.plist */,
 			);
 			path = raspVega;
+			sourceTree = "<group>";
+		};
+		DF90F538256D0C6500062F88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF90F52B256CDE1800062F88 /* data.json */,
+				DF90F534256CDF1D00062F88 /* ScheduleData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF90F539256D0C8400062F88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF55FA5325729494000D0CC5 /* GroupChangeTableViewCell.swift */,
+				DF90F526256C65B100062F88 /* ScheduleTableViewCell.swift */,
+				DF33A49F256D19C80008DD66 /* GroupTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF90F53A256D0CB400062F88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF855967256C3F82004CBB8B /* SceneDelegate.swift */,
+				DF855965256C3F82004CBB8B /* AppDelegate.swift */,
+				DF855970256C3F85004CBB8B /* LaunchScreen.storyboard */,
+				DF85596E256C3F85004CBB8B /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF90F53B256D0CD400062F88 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF855981256C493F004CBB8B /* MainTabBarController.swift */,
+				DF855984256C4BD8004CBB8B /* GreetingViewController.swift */,
+				DF855987256C4C2A004CBB8B /* ScheduleViewController.swift */,
+				DF0E86122570883C00229E74 /* SearchViewController.swift */,
+				DF0E86152570889400229E74 /* NotificationsViewController.swift */,
+				DF85598D256C4C4A004CBB8B /* SettingsViewController.swift */,
+				DFDEC984257D490100D429F9 /* FullScheduleViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E72D38C5E7F710ABCD44B37E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD81C7916120DCA4954A8F13 /* Pods-raspVega.debug.xcconfig */,
+				F544F55497A762EF9AA3CFB6 /* Pods-raspVega.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF855976256C3F85004CBB8B /* Build configuration list for PBXNativeTarget "raspVega" */;
 			buildPhases = (
+				68EF8D8E23523B7CF4DA40D1 /* [CP] Check Pods Manifest.lock */,
 				DF85595E256C3F81004CBB8B /* Sources */,
 				DF85595F256C3F81004CBB8B /* Frameworks */,
 				DF855960256C3F81004CBB8B /* Resources */,
+				3B58E6BEC55C239D9DE656D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,35 +213,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF855972256C3F85004CBB8B /* LaunchScreen.storyboard in Resources */,
+				DF90F52C256CDE1800062F88 /* data.json in Resources */,
 				DF85596F256C3F85004CBB8B /* Assets.xcassets in Resources */,
-				DF85596D256C3F82004CBB8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B58E6BEC55C239D9DE656D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-raspVega/Pods-raspVega-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-raspVega/Pods-raspVega-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-raspVega/Pods-raspVega-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68EF8D8E23523B7CF4DA40D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-raspVega-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF85595E256C3F81004CBB8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF85596A256C3F82004CBB8B /* ViewController.swift in Sources */,
+				DFDEC985257D490100D429F9 /* FullScheduleViewController.swift in Sources */,
+				DF33A4A0256D19C80008DD66 /* GroupTableViewCell.swift in Sources */,
+				DF0E86132570883C00229E74 /* SearchViewController.swift in Sources */,
+				DF855988256C4C2A004CBB8B /* ScheduleViewController.swift in Sources */,
+				DF0E86162570889400229E74 /* NotificationsViewController.swift in Sources */,
+				DF85598E256C4C4A004CBB8B /* SettingsViewController.swift in Sources */,
 				DF855966256C3F82004CBB8B /* AppDelegate.swift in Sources */,
 				DF855968256C3F82004CBB8B /* SceneDelegate.swift in Sources */,
+				DF855982256C493F004CBB8B /* MainTabBarController.swift in Sources */,
+				DF90F527256C65B100062F88 /* ScheduleTableViewCell.swift in Sources */,
+				DF90F535256CDF1D00062F88 /* ScheduleData.swift in Sources */,
+				DF855985256C4BD8004CBB8B /* GreetingViewController.swift in Sources */,
+				DF55FA5425729494000D0CC5 /* GroupChangeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DF85596B256C3F82004CBB8B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF85596C256C3F82004CBB8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF855970256C3F85004CBB8B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +415,7 @@
 		};
 		DF855977256C3F85004CBB8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD81C7916120DCA4954A8F13 /* Pods-raspVega.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +435,7 @@
 		};
 		DF855978256C3F85004CBB8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F544F55497A762EF9AA3CFB6 /* Pods-raspVega.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
