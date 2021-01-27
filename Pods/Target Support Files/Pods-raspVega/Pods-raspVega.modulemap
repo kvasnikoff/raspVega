@@ -1,0 +1,6 @@
+framework module Pods_raspVega {
+  umbrella header "Pods-raspVega-umbrella.h"
+
+  export *
+  module * { export * }
+}
